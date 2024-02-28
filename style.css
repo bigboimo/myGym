@@ -4,12 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  --primary-color: #f92524;
-  --primary-color-dark: #e91a1a;
-  --secondary-color: #faf9fe;
-  --text-dark: #0f172a;
-  --text-light: #64748b;
+  --primary-color: #6A4C93; /* Velvet Purple */
+  --primary-color-dark: #5D3F6A; /* Darker Shade of Velvet Purple */
+  --secondary-color: #F3E5F5; /* Light Purple */
+  --text-dark: #2D142C; /* Very Dark Purple */
+  --text-light: #907FA4; /* Lighter Purple */
   --white: #ffffff;
   --max-width: 1200px;
 }
@@ -20,11 +21,14 @@
   box-sizing: border-box;
 }
 
-.logo {
-  width: 20vw; /* Adjusts based on viewport width */
-  height: auto; /* Maintains aspect ratio */
+#logo {
+  transition: transform 0.2s; /* Animation */
+  width: 100px; /* Initial size */
+  height: auto;
 }
-
+#logo:hover {
+  transform: scale(5.0); /* Scale the image to 1.5 times its original size on hover */
+}
 
 .section__container {
   max-width: var(--max-width);
@@ -309,11 +313,14 @@ nav {
   height: 100%;
   display: grid;
   align-items: center;
+  border-radius: 20px; /* Adjust this value to get the desired roundness */
+  overflow: hidden; 
 }
 
 .trainer__card img {
   height: 100%;
   object-fit: cover;
+  border-radius: 20px; /* Adjust this value to get the desired roundness */
 }
 
 .trainer__content {
