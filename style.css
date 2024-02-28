@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --primary-color: #f92524;
   --primary-color-dark: #e91a1a;
@@ -15,6 +19,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.logo {
+  width: 20vw; /* Adjusts based on viewport width */
+  height: auto; /* Maintains aspect ratio */
+}
+
 
 .section__container {
   max-width: var(--max-width);
