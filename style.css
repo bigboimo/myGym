@@ -314,7 +314,7 @@ nav {
   display: grid;
   align-items: center;
   border-radius: 20px; /* Adjust this value to get the desired roundness */
-  overflow: hidden; 
+  overflow: hidden;  
 }
 
 .trainer__card img {
