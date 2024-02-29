@@ -15,6 +15,7 @@
   --max-width: 1200px;
 }
 
+
 * {
   padding: 0;
   margin: 0;
@@ -29,6 +30,8 @@
 #logo:hover {
   transform: scale(5.0); /* Scale the image to 1.5 times its original size on hover */
 }
+
+
 
 .section__container {
   max-width: var(--max-width);
