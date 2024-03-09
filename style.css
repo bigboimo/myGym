@@ -538,6 +538,64 @@ nav {
   text-align: center;
 }
 
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+  min-height: 100vh; /* Make the container at least the height of the viewport */
+  padding: 1rem;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 600px; /* Adjust as necessary for your design */
+  margin: 0 -2rem; /* Center the form within the container */
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  background: #fff; /* Adjust the background as needed */
+}
+
+.form-group {
+  width: 100%; /* Full width of the form */
+  margin-bottom: 1rem; /* Space between form fields */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button.btn {
+  width: 100%; /* Full width of the form-group container */
+  padding: 0.75rem;
+  margin-bottom: 0.5rem; /* Space between form fields */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 4px;
+}
+
+textarea {
+  height: 150px; /* Fixed height for textarea */
+  resize: vertical; /* Allows vertical resizing */
+}
+
+button.btn {
+  padding: 0.75rem;
+  border: none;
+  background-color: #6A4C93; /* Primary button color */
+  color: #ffffff; /* Button text color */
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background-color: #5D3F6A; /* Darker shade for hover state */
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    width: 90%; /* Slightly narrower on smaller screens */
+    padding: 1rem;
+  }
+}
+
 @media (width > 480px) {
   .class__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -653,4 +711,59 @@ nav {
   .price__card {
     padding: 2rem;
   }
+}
+
+body {
+  font-family: 'Poppins', sans-serif; /* Use a web-safe font or import the one you prefer */
+  background-color: #f4f4f4; /* Choose a subtle background color */
+}
+
+.form-container {
+  max-width: 400px; /* Adjust width as needed */
+  margin: 50px auto; /* Center the form on the page */
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* Space between label and input field */
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Space below each input */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #6A4C93; /* Use your primary color */
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #5D3F6A; /* A darker shade for hover state */
 }

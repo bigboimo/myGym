@@ -1,0 +1,14 @@
+[
+    {
+        "id": "signup",
+        "header": "Sign Up for our Gym",
+        "description": "Join our community and start your fitness journey today.",
+        "image": "images/signup-image.jpg"
+    },
+    {
+        "id": "contact",
+        "header": "Get In Touch",
+        "description": "Have questions? Reach out to us and we'll get back to you as soon as possible.",
+        "image": "images/contact-image.jpg"
+    }
+]

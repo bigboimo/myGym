@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - myGym</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-secondary-color">
+
+  <section class="section__container">
+    <h2 class="section__header">Contact Us</h2>
+    <form id="contact-form" class="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" placeholder="Message" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <br><br><br>
+
+    <h2 class="section__header">Team Contact Information</h2>
+    <div class="contact-card-container">
+      <!-- Each team member's contact card -->
+      <div class="contact-card">
+        <h3 class="contact-name">Mohamed Elaagip</h3>
+        <p class="contact-detail">Contact: 319-288-1273</p>
+        <p class="contact-detail">Email: bigboimo@iastate.edu</p>
+        <p class="contact-detail">Class: SE 319</p>
+        <br>
+      </div>
+      <div class="contact-card">
+        <h3 class="contact-name">Kemal Yavuz</h3>
+        <p class="contact-detail">Contact: 515-708-1984</p>
+        <p class="contact-detail">Email: kyavuz@iastate.edu</p>
+        <p class="contact-detail">Class: SE 319</p>
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the default form submission behavior
+      // Add any validation or data handling here if necessary
+      window.location.href = 'index.html'; // Redirect to the main page
+    });
+    </script>
+
+  <script src="index.js"></script>
+</body>
+</html>
