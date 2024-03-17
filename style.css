@@ -767,3 +767,36 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #5D3F6A; /* A darker shade for hover state */
 }
+
+.client-testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.client-testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.client-testimonial h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.client-testimonial p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666666;
+}

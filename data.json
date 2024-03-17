@@ -1,14 +1,132 @@
 [
     {
-        "id": "signup",
-        "header": "Sign Up for our Gym",
-        "description": "Join our community and start your fitness journey today.",
-        "image": "images/signup-image.jpg"
+        "id": "logo",
+        "description": "Elevate Your Existence",
+        "image": "images/logo.webp"
+    },
+    {
+        "id": "header",
+        "header": "Tone Your Physique & Transform Your Life!",
+        "description": "Unlock your true potential and start on a path to a more robust, leaner, and confident self. Enroll in 'Achieve Your Ideal Shape' today and see the remarkable changes your body can achieve!",
+        "image": "images/header.png"
+    },
+    {
+        "id": "about",
+        "header": "Our Narrative",
+        "description": "Spearheaded by a cadre of inspirational and skilled trainers, 'The Transformation Awaits' is a dynamic, outcome-oriented workout blending the best of cardiovascular, strength, and agility training.",
+        "image": "images/about.png"
+    },
+    {
+        "id": "class-strength",
+        "header": "Strength Training",
+        "description": "Resistance Training",
+        "image": "images/class-1.jpg"
+    },
+    {
+        "id": "class-flexibility",
+        "header": "Flexibility & Mobility",
+        "description": "Yoga & Pilates",
+        "image": "images/class-2.jpg"
+    },
+    {
+        "id": "class-hiit",
+        "header": "HIIT",
+        "description": "Circuit Training",
+        "image": "images/class-3.jpg"
+    },
+    {
+        "id": "class-group",
+        "header": "Group Fitness",
+        "description": "Zumba or Dance",
+        "image": "images/class-4.jpg"
+    },
+    {
+        "id": "trainer-alex",
+        "header": "Alex Thompson",
+        "description": "Strength and Conditioning",
+        "image": "images/trainer-1.jpg"
+    },
+    {
+        "id": "trainer-mike",
+        "header": "Mike Johnson",
+        "description": "HIIT and Functional",
+        "image": "images/trainer-2.jpg"
+    },
+    {
+        "id": "trainer-lisa",
+        "header": "Lisa Ray",
+        "description": "Yoga and Mindfulness",
+        "image": "images/trainer-3.jpg"
+    },
+    {
+        "id": "price-basic",
+        "header": "Basic Plan",
+        "description": "The Basic Plan is an ideal launchpad for those beginning their fitness journey or looking to maintain a healthy lifestyle. Main Features: Intelligent workout schedules, Home-based exercise routines.",
+        "image": "images/price-1.png"
+    },
+    {
+        "id": "price-weekly",
+        "header": "Weekly Plan",
+        "description": "Crafted for dynamic engagement, our Weekly Plan ensures you're always motivated and on the path to meeting your fitness targets. Core Benefits: Access to PRO Gyms, Intelligent workout schedules, Home-based exercise routines.",
+        "image": "images/price-2.png"
+    },
+    {
+        "id": "price-monthly",
+        "header": "Monthly Plan",
+        "description": "Our Monthly Plan offers unparalleled flexibility, granting you access to top-notch gym facilities, expert trainers, and a vibrant fitness community. Distinguished Features: Elite gym classes, Access to PRO Gyms, Intelligent workout schedules, Home-based exercise routines, One-on-one personal training.",
+        "image": "images/price-3.png"
+    },
+    {
+        "id": "clients",
+        "testimonials": [
+          {
+            "header": "Samantha Brooks",
+            "description": "Joining this gym was the best decision for my health. The trainers and the community have supported me every step of the way.",
+            "image": "images/client-1.jpg"
+          },
+          {
+            "header": "Michael Chen",
+            "description": "The variety of classes keeps me coming back. Every session feels new and exciting, pushing me to my limits.",
+            "image": "images/client-2.jpg"
+          },
+          {
+            "header": "Olivia Sanchez",
+            "description": "I've achieved fitness goals I never thought possible. The personal training here is unmatched.",
+            "image": "images/client-3.jpg"
+          },
+          {
+            "header": "Daniel Kim",
+            "description": "The 24/7 access fits perfectly with my hectic schedule. I can work out whenever it's convenient for me.",
+            "image": "images/client-4.jpg"
+          }
+        ]
+      },          
+    {
+        "id": "footer",
+        "description": "Take the first step towards a healthier, stronger you with our unbeatable pricing plans. Let's sweat, achieve, and conquer together!",
+        "image": "images/logo.png"
     },
     {
         "id": "contact",
-        "header": "Get In Touch",
-        "description": "Have questions? Reach out to us and we'll get back to you as soon as possible.",
-        "image": "images/contact-image.jpg"
+        "team": [
+          {
+            "name": "Kemal Yavuz",
+            "contact": "515-708-1984",
+            "email": "kyavuz@iastate.edu",
+            "class": "SE 319"
+          },
+          {
+            "name": "Mohamed Elaagip",
+            "contact": "319-288-1273",
+            "email": "bigboimo@iastate.edu",
+            "class": "SE 319"
+          }
+        ]
+    },
+    {
+        "id": "signup",
+        "header": "Sign Up Now",
+        "description": "Ready to take the first step towards a healthier, stronger you? Join our community and start your fitness journey today.",
+        "image": "images/signup-image.jpg"
     }
 ]

@@ -27,93 +27,26 @@
     </form>
   </div>
 
-  <section id="client" class="section__container client__container">
-    <h2 class="section__header">Client Testimonials</h2>
-    <p class="section__description">
-      Hear from our valued members who have transformed their lives with us. Their success stories are a testament to
-      our commitment to providing a supportive and effective fitness environment.
-    </p>
-    <!-- Slider main container -->
-    <div class="swiper">
+<!-- Add this div to your HTML for dynamic client testimonials -->
+<section id="client" class="section__container client__container">
+  <h2 class="section__header">Client Testimonials</h2>
+  <p class="section__description">
+    Hear from our valued members who have transformed their lives with us. Their success stories are a testament to
+    our commitment to providing a supportive and effective fitness environment.
+  </p>
+  <!-- Slider main container -->
+  <div class="swiper">
       <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slide 1 -->
-        <div class="swiper-slide">
-          <div class="client__card">
-            <img src="images/client-1.jpg" alt="client testimonial">
-            <div class="client__ratings">
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-half-fill"></i></span>
-            </div>
-            <p>
-              "Joining this gym was the best decision for my health. The trainers and the community have supported me
-              every step of the way."
-            </p>
-            <h4>Samantha Brooks</h4>
-            <h5>Entrepreneur</h5>
-          </div>
-        </div>
-        <!-- Slide 2 -->
-        <div class="swiper-slide">
-          <div class="client__card">
-            <img src="images/client-2.jpg" alt="client testimonial">
-            <div class="client__ratings">
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-            </div>
-            <p>
-              "The variety of classes keeps me coming back. Every session feels new and exciting, pushing me to my
-              limits."
-            </p>
-            <h4>Michael Chen</h4>
-            <h5>Software Developer</h5>
-          </div>
-        </div>
-        <!-- Slide 3 -->
-        <div class="swiper-slide">
-          <div class="client__card">
-            <img src="images/client-3.jpg" alt="client testimonial">
-            <div class="client__ratings">
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-line"></i></span>
-            </div>
-            <p>
-              "I've achieved fitness goals I never thought possible. The personal training here is unmatched."
-            </p>
-            <h4>Olivia Sanchez</h4>
-            <h5>Graphic Designer</h5>
-          </div>
-        </div>
-        <!-- Slide 4 -->
-        <div class="swiper-slide">
-          <div class="client__card">
-            <img src="images/client-4.jpg" alt="client testimonial">
-            <div class="client__ratings">
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-fill"></i></span>
-              <span><i class="ri-star-half-fill"></i></span>
-            </div>
-            <p>
-              "The 24/7 access fits perfectly with my hectic schedule. I can work out whenever it's convenient for me."
-            </p>
-            <h4>Daniel Kim</h4>
-            <h5>Entrepreneur</h5>
-          </div>
-        </div>
+      <div class="swiper-wrapper" id="client-testimonials">
+          <!-- Client testimonials will be dynamically added here -->
       </div>
-    </div>
-  </section>
+  </div>
+</section>
+
+  
+
+
+  <script src="signup.js"></script>
 
   <script>
     document.getElementById('signup-form').addEventListener('submit', function(event) {
@@ -123,6 +56,5 @@
     });
     </script>
     
-    <script src="index.js"></script>
 </body>
 </html>
