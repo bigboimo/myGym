@@ -110,16 +110,10 @@
         "id": "contact",
         "team": [
           {
-            "name": "Kemal Yavuz",
-            "contact": "515-708-1984",
-            "email": "kyavuz@iastate.edu",
-            "class": "SE 319"
-          },
-          {
-            "name": "Mohamed Elaagip",
-            "contact": "319-288-1273",
-            "email": "bigboimo@iastate.edu",
-            "class": "SE 319"
+            "name": "myGym inc.",
+            "contact": "999-999-9999",
+            "email": "mygym@gym.io",
+            "class": "LA"
           }
         ]
     },

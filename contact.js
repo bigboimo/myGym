@@ -21,7 +21,7 @@ function loadTeam() {
             h3.textContent = member.name;
             p1.textContent = `Contact: ${member.contact}`;
             p2.textContent = `Email: ${member.email}`;
-            p3.textContent = `Class: ${member.class}`;
+            p3.textContent = `Location: ${member.class}`;
   
             // Append elements to container
             div.appendChild(h3);
